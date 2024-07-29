@@ -13,6 +13,9 @@
 		FE8801602C57B36E0097D71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE88015E2C57B36E0097D71E /* Main.storyboard */; };
 		FE8801622C57B3A10097D71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8801612C57B3A10097D71E /* Assets.xcassets */; };
 		FE8801652C57B3A10097D71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8801632C57B3A10097D71E /* LaunchScreen.storyboard */; };
+		FE88016E2C57B5FA0097D71E /* AddPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE88016D2C57B5FA0097D71E /* AddPersonVC.swift */; };
+		FE8801722C57B6300097D71E /* ToDoListXIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8801702C57B6300097D71E /* ToDoListXIB.swift */; };
+		FE8801732C57B6300097D71E /* ToDoListXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8801712C57B6300097D71E /* ToDoListXIB.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FE8801612C57B3A10097D71E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE8801642C57B3A10097D71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE8801662C57B3A10097D71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE88016D2C57B5FA0097D71E /* AddPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonVC.swift; sourceTree = "<group>"; };
+		FE8801702C57B6300097D71E /* ToDoListXIB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListXIB.swift; sourceTree = "<group>"; };
+		FE8801712C57B6300097D71E /* ToDoListXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoListXIB.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				FE8801582C57B36E0097D71E /* AppDelegate.swift */,
 				FE88015A2C57B36E0097D71E /* SceneDelegate.swift */,
 				FE88015C2C57B36E0097D71E /* ViewController.swift */,
+				FE88016D2C57B5FA0097D71E /* AddPersonVC.swift */,
+				FE8801702C57B6300097D71E /* ToDoListXIB.swift */,
+				FE8801712C57B6300097D71E /* ToDoListXIB.xib */,
 				FE88015E2C57B36E0097D71E /* Main.storyboard */,
 				FE8801612C57B3A10097D71E /* Assets.xcassets */,
 				FE8801632C57B3A10097D71E /* LaunchScreen.storyboard */,
@@ -125,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE8801652C57B3A10097D71E /* LaunchScreen.storyboard in Resources */,
+				FE8801732C57B6300097D71E /* ToDoListXIB.xib in Resources */,
 				FE8801622C57B3A10097D71E /* Assets.xcassets in Resources */,
 				FE8801602C57B36E0097D71E /* Main.storyboard in Resources */,
 			);
@@ -139,6 +149,8 @@
 			files = (
 				FE88015D2C57B36E0097D71E /* ViewController.swift in Sources */,
 				FE8801592C57B36E0097D71E /* AppDelegate.swift in Sources */,
+				FE88016E2C57B5FA0097D71E /* AddPersonVC.swift in Sources */,
+				FE8801722C57B6300097D71E /* ToDoListXIB.swift in Sources */,
 				FE88015B2C57B36E0097D71E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
